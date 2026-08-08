@@ -75,50 +75,78 @@ def find_latest(code: str) -> str:
 
 def series_for(code: str, end_month: str, months: int = 36):
     ey, em = map(int, end_month.split('-'))
-    sy, sm = month_shift(ey, em, -(months-1))
+    sy, sm = month_shift(ey, em, -(months - 1))
     start_month = f"{sy:04d}-{sm:02d}"
+
     rows = api_get({
-        "get":"NAME,YEAR,MONTH,GEN_VAL_MO,GEN_VAL_YR,CON_VAL_MO,CON_VAL_YR,LAST_UPDATE",
-        "for":"world:1",
-        "time":f"from+{start_month}+to+{end_month}",
-        "I_COMMODITY":code,
-        "key":KEY,
+        "get": "NAME,YEAR,MONTH,GEN_VAL_MO,GEN_VAL_YR,CON_VAL_MO,CON_VAL_YR,LAST_UPDATE,RP,CTY_SUBCODE",
+        "for": "world:1",
+        "time": f"from+{start_month}+to+{end_month}",
+        "I_COMMODITY": code,
+        "key": KEY,
     })
+
     out = {}
+
     for r in rows:
         key = f"{r['YEAR']}-{r['MONTH']}"
-        values = {
-            "month": key,
-            "general_imports": int(r.get("GEN_VAL_MO") or 0),
-            "consumption_imports": int(r.get("CON_VAL_MO") or 0),
-            "general_ytd": int(r.get("GEN_VAL_YR") or 0),
-            "consumption_ytd": int(r.get("CON_VAL_YR") or 0),
-            "census_last_update": r.get("LAST_UPDATE") or None,
-        }
-        if key in out and out[key] != values:
-            raise RuntimeError(f"Ambiguous duplicate Census rows for {code} {key}; refusing to publish silently.")
-        out[key] = values
+
+        if key not in out:
+            out[key] = {
+                "month": key,
+                "general_imports": 0,
+                "consumption_imports": 0,
+                "general_ytd": 0,
+                "consumption_ytd": 0,
+                "census_last_update": None,
+            }
+
+        out[key]["general_imports"] += int(r.get("GEN_VAL_MO") or 0)
+        out[key]["consumption_imports"] += int(r.get("CON_VAL_MO") or 0)
+        out[key]["general_ytd"] += int(r.get("GEN_VAL_YR") or 0)
+        out[key]["consumption_ytd"] += int(r.get("CON_VAL_YR") or 0)
+
+        last_update = r.get("LAST_UPDATE")
+        if last_update:
+            current = out[key]["census_last_update"]
+            if current is None or last_update > current:
+                out[key]["census_last_update"] = last_update
+
     return [out[k] for k in sorted(out)]
 
 
 def countries_for(code: str, month: str):
     rows = api_get({
-        "get":"NAME,GEN_VAL_MO,CON_VAL_MO",
-        "for":"usitc standard countries and areas:*",
-        "time":month,
-        "I_COMMODITY":code,
-        "key":KEY,
+        "get": "NAME,GEN_VAL_MO,CON_VAL_MO,RP,CTY_SUBCODE",
+        "for": "usitc standard countries and areas:*",
+        "time": month,
+        "I_COMMODITY": code,
+        "key": KEY,
     })
+
     seen = {}
+
     for r in rows:
         name = r.get("NAME", "").strip()
+
         if not name or name.lower().startswith("world"):
             continue
-        item = {"name":name, "general_imports":int(r.get("GEN_VAL_MO") or 0), "consumption_imports":int(r.get("CON_VAL_MO") or 0)}
-        if name in seen and seen[name] != item:
-            raise RuntimeError(f"Ambiguous duplicate country rows for {code} {month} {name}.")
-        seen[name] = item
-    return sorted(seen.values(), key=lambda x:x["general_imports"], reverse=True)
+
+        if name not in seen:
+            seen[name] = {
+                "name": name,
+                "general_imports": 0,
+                "consumption_imports": 0,
+            }
+
+        seen[name]["general_imports"] += int(r.get("GEN_VAL_MO") or 0)
+        seen[name]["consumption_imports"] += int(r.get("CON_VAL_MO") or 0)
+
+    return sorted(
+        seen.values(),
+        key=lambda x: x["general_imports"],
+        reverse=True
+    )
 
 
 def write_csv(categories):
