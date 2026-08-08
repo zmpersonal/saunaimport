@@ -1,8 +1,1556 @@
 {
-  "status": "pending",
-  "last_updated": null,
-  "latest_month": null,
+  "status": "live",
+  "last_updated": "2026-08-08T23:59:58Z",
+  "latest_month": "2026-06",
   "source": "U.S. Census Bureau International Trade API",
-  "methodology": "Category-level proxy data only. See /methodology/.",
-  "categories": []
+  "methodology": "Category-level proxy data only. HTS categories include non-sauna merchandise; categories are not summed into a sauna market-size estimate.",
+  "categories": [
+    {
+      "code": "9406.10.0000",
+      "api_code": "9406100000",
+      "slug": "prefabricated-saunas",
+      "label": "Prefabricated buildings of wood",
+      "scope_note": "Broad proxy category. It includes wooden prefabricated buildings other than saunas, so category totals must not be represented as sauna-only imports.",
+      "series": [
+        {
+          "month": "2023-07",
+          "general_imports": 219273560,
+          "consumption_imports": 219273560,
+          "general_ytd": 1133470472,
+          "consumption_ytd": 1133470472,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-08",
+          "general_imports": 158120600,
+          "consumption_imports": 158120600,
+          "general_ytd": 1291591072,
+          "consumption_ytd": 1291591072,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-09",
+          "general_imports": 114682744,
+          "consumption_imports": 114682744,
+          "general_ytd": 1406273816,
+          "consumption_ytd": 1406273816,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-10",
+          "general_imports": 150096312,
+          "consumption_imports": 150096312,
+          "general_ytd": 1556370128,
+          "consumption_ytd": 1556370128,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-11",
+          "general_imports": 177604704,
+          "consumption_imports": 177604704,
+          "general_ytd": 1733974832,
+          "consumption_ytd": 1733974832,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-12",
+          "general_imports": 149478888,
+          "consumption_imports": 149478888,
+          "general_ytd": 1883453720,
+          "consumption_ytd": 1883453720,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-01",
+          "general_imports": 168945512,
+          "consumption_imports": 168945512,
+          "general_ytd": 168945512,
+          "consumption_ytd": 168945512,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-02",
+          "general_imports": 172173600,
+          "consumption_imports": 172173600,
+          "general_ytd": 341119112,
+          "consumption_ytd": 341119112,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-03",
+          "general_imports": 139389216,
+          "consumption_imports": 139389216,
+          "general_ytd": 480508328,
+          "consumption_ytd": 480508328,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-04",
+          "general_imports": 111316304,
+          "consumption_imports": 111316304,
+          "general_ytd": 591824632,
+          "consumption_ytd": 591824632,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-05",
+          "general_imports": 126766640,
+          "consumption_imports": 126766640,
+          "general_ytd": 718591272,
+          "consumption_ytd": 718591272,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-06",
+          "general_imports": 132097824,
+          "consumption_imports": 132097824,
+          "general_ytd": 850689096,
+          "consumption_ytd": 850689096,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-07",
+          "general_imports": 163475848,
+          "consumption_imports": 163475848,
+          "general_ytd": 1014164944,
+          "consumption_ytd": 1014164944,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-08",
+          "general_imports": 165146720,
+          "consumption_imports": 165146720,
+          "general_ytd": 1179311664,
+          "consumption_ytd": 1179311664,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-09",
+          "general_imports": 165554904,
+          "consumption_imports": 165554904,
+          "general_ytd": 1344866568,
+          "consumption_ytd": 1344866568,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-10",
+          "general_imports": 225268256,
+          "consumption_imports": 225268256,
+          "general_ytd": 1570134824,
+          "consumption_ytd": 1570134824,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-11",
+          "general_imports": 172728952,
+          "consumption_imports": 172728952,
+          "general_ytd": 1742863776,
+          "consumption_ytd": 1742863776,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-12",
+          "general_imports": 151639616,
+          "consumption_imports": 151639616,
+          "general_ytd": 1894503392,
+          "consumption_ytd": 1894503392,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-01",
+          "general_imports": 150859048,
+          "consumption_imports": 150859048,
+          "general_ytd": 150859048,
+          "consumption_ytd": 150859048,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-02",
+          "general_imports": 172731816,
+          "consumption_imports": 172731816,
+          "general_ytd": 323590864,
+          "consumption_ytd": 323590864,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-03",
+          "general_imports": 196758208,
+          "consumption_imports": 196758208,
+          "general_ytd": 520349072,
+          "consumption_ytd": 520349072,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-04",
+          "general_imports": 153705696,
+          "consumption_imports": 153705696,
+          "general_ytd": 674054768,
+          "consumption_ytd": 674054768,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-05",
+          "general_imports": 162824128,
+          "consumption_imports": 162824128,
+          "general_ytd": 836878896,
+          "consumption_ytd": 836878896,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-06",
+          "general_imports": 185519416,
+          "consumption_imports": 185519416,
+          "general_ytd": 1022398312,
+          "consumption_ytd": 1022398312,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-07",
+          "general_imports": 179963008,
+          "consumption_imports": 179963008,
+          "general_ytd": 1202361320,
+          "consumption_ytd": 1202361320,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-08",
+          "general_imports": 204239824,
+          "consumption_imports": 204239824,
+          "general_ytd": 1406601144,
+          "consumption_ytd": 1406601144,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-09",
+          "general_imports": 176263488,
+          "consumption_imports": 176263488,
+          "general_ytd": 1582864632,
+          "consumption_ytd": 1582864632,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-10",
+          "general_imports": 216130944,
+          "consumption_imports": 216130944,
+          "general_ytd": 1798995576,
+          "consumption_ytd": 1798995576,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-11",
+          "general_imports": 128484352,
+          "consumption_imports": 128484352,
+          "general_ytd": 1927479928,
+          "consumption_ytd": 1927479928,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-12",
+          "general_imports": 137415224,
+          "consumption_imports": 137415224,
+          "general_ytd": 2064895152,
+          "consumption_ytd": 2064895152,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-01",
+          "general_imports": 154782120,
+          "consumption_imports": 154782120,
+          "general_ytd": 154782120,
+          "consumption_ytd": 154782120,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-02",
+          "general_imports": 170409864,
+          "consumption_imports": 170409864,
+          "general_ytd": 325191984,
+          "consumption_ytd": 325191984,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-03",
+          "general_imports": 181858272,
+          "consumption_imports": 181858272,
+          "general_ytd": 507050256,
+          "consumption_ytd": 507050256,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-04",
+          "general_imports": 177780272,
+          "consumption_imports": 177780272,
+          "general_ytd": 684830528,
+          "consumption_ytd": 684830528,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-05",
+          "general_imports": 254658592,
+          "consumption_imports": 254658592,
+          "general_ytd": 939489120,
+          "consumption_ytd": 939489120,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-06",
+          "general_imports": 192503640,
+          "consumption_imports": 192503640,
+          "general_ytd": 1131992760,
+          "consumption_ytd": 1131992760,
+          "census_last_update": "0"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Canada",
+          "general_imports": 101110360,
+          "consumption_imports": 101110360
+        },
+        {
+          "name": "Vietnam",
+          "general_imports": 28331352,
+          "consumption_imports": 28331352
+        },
+        {
+          "name": "Mexico",
+          "general_imports": 26835440,
+          "consumption_imports": 26835440
+        },
+        {
+          "name": "Estonia",
+          "general_imports": 13976760,
+          "consumption_imports": 13976760
+        },
+        {
+          "name": "China",
+          "general_imports": 10909384,
+          "consumption_imports": 10909384
+        },
+        {
+          "name": "Indonesia",
+          "general_imports": 2653000,
+          "consumption_imports": 2653000
+        },
+        {
+          "name": "Romania",
+          "general_imports": 2474792,
+          "consumption_imports": 2474792
+        },
+        {
+          "name": "Finland",
+          "general_imports": 1847288,
+          "consumption_imports": 1847288
+        },
+        {
+          "name": "Belgium",
+          "general_imports": 926768,
+          "consumption_imports": 926768
+        },
+        {
+          "name": "Nicaragua",
+          "general_imports": 794288,
+          "consumption_imports": 794288
+        },
+        {
+          "name": "Italy",
+          "general_imports": 718984,
+          "consumption_imports": 718984
+        },
+        {
+          "name": "Japan",
+          "general_imports": 670416,
+          "consumption_imports": 670416
+        },
+        {
+          "name": "Lithuania",
+          "general_imports": 508272,
+          "consumption_imports": 508272
+        },
+        {
+          "name": "Georgia",
+          "general_imports": 179040,
+          "consumption_imports": 179040
+        },
+        {
+          "name": "Turkey",
+          "general_imports": 169000,
+          "consumption_imports": 169000
+        },
+        {
+          "name": "Netherlands",
+          "general_imports": 161944,
+          "consumption_imports": 161944
+        },
+        {
+          "name": "Spain",
+          "general_imports": 139344,
+          "consumption_imports": 139344
+        },
+        {
+          "name": "Latvia",
+          "general_imports": 28880,
+          "consumption_imports": 28880
+        },
+        {
+          "name": "Lebanon",
+          "general_imports": 28800,
+          "consumption_imports": 28800
+        },
+        {
+          "name": "Germany",
+          "general_imports": 16000,
+          "consumption_imports": 16000
+        },
+        {
+          "name": "Mongolia",
+          "general_imports": 12000,
+          "consumption_imports": 12000
+        },
+        {
+          "name": "United Kingdom",
+          "general_imports": 4720,
+          "consumption_imports": 4720
+        },
+        {
+          "name": "Australia",
+          "general_imports": 3608,
+          "consumption_imports": 3608
+        },
+        {
+          "name": "France",
+          "general_imports": 3200,
+          "consumption_imports": 3200
+        },
+        {
+          "name": "El Salvador",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Brazil",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Sweden",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Denmark",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Austria",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Switzerland",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Poland",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Russia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Ukraine",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Slovenia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Serbia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "United Arab Emirates",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "India",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Thailand",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Malaysia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Philippines",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Korea, South",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Hong Kong",
+          "general_imports": 0,
+          "consumption_imports": 0
+        }
+      ]
+    },
+    {
+      "code": "8516.29.0090",
+      "api_code": "8516290090",
+      "slug": "electric-sauna-heaters",
+      "label": "Other electric space heating apparatus",
+      "scope_note": "Broad proxy category. It includes electric space-heating equipment other than sauna heaters.",
+      "series": [
+        {
+          "month": "2023-07",
+          "general_imports": 204626056,
+          "consumption_imports": 203882064,
+          "general_ytd": 1304796176,
+          "consumption_ytd": 1299595032,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-08",
+          "general_imports": 306374688,
+          "consumption_imports": 303471680,
+          "general_ytd": 1611170864,
+          "consumption_ytd": 1603066712,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-09",
+          "general_imports": 325120280,
+          "consumption_imports": 320161832,
+          "general_ytd": 1936291144,
+          "consumption_ytd": 1923228544,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-10",
+          "general_imports": 269769808,
+          "consumption_imports": 268566128,
+          "general_ytd": 2206060952,
+          "consumption_ytd": 2191794672,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-11",
+          "general_imports": 228085984,
+          "consumption_imports": 227487616,
+          "general_ytd": 2434146936,
+          "consumption_ytd": 2419282288,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-12",
+          "general_imports": 246095336,
+          "consumption_imports": 245513952,
+          "general_ytd": 2680242272,
+          "consumption_ytd": 2664796240,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-01",
+          "general_imports": 222063936,
+          "consumption_imports": 220392320,
+          "general_ytd": 222063936,
+          "consumption_ytd": 220392320,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-02",
+          "general_imports": 201484136,
+          "consumption_imports": 194882072,
+          "general_ytd": 423548072,
+          "consumption_ytd": 415274392,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-03",
+          "general_imports": 208901360,
+          "consumption_imports": 202478400,
+          "general_ytd": 632449432,
+          "consumption_ytd": 617752792,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-04",
+          "general_imports": 188778144,
+          "consumption_imports": 181923984,
+          "general_ytd": 821227576,
+          "consumption_ytd": 799676776,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-05",
+          "general_imports": 206615040,
+          "consumption_imports": 199411840,
+          "general_ytd": 1027842616,
+          "consumption_ytd": 999088616,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-06",
+          "general_imports": 218629656,
+          "consumption_imports": 212643880,
+          "general_ytd": 1246472272,
+          "consumption_ytd": 1211732496,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-07",
+          "general_imports": 231685360,
+          "consumption_imports": 226424616,
+          "general_ytd": 1478157632,
+          "consumption_ytd": 1438157112,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-08",
+          "general_imports": 308527856,
+          "consumption_imports": 305185568,
+          "general_ytd": 1786685488,
+          "consumption_ytd": 1743342680,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-09",
+          "general_imports": 335639344,
+          "consumption_imports": 330349056,
+          "general_ytd": 2122324832,
+          "consumption_ytd": 2073691736,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-10",
+          "general_imports": 366595616,
+          "consumption_imports": 361050480,
+          "general_ytd": 2488920448,
+          "consumption_ytd": 2434742216,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-11",
+          "general_imports": 338142072,
+          "consumption_imports": 331883552,
+          "general_ytd": 2827062520,
+          "consumption_ytd": 2766625768,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-12",
+          "general_imports": 317575360,
+          "consumption_imports": 314017184,
+          "general_ytd": 3144637880,
+          "consumption_ytd": 3080642952,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-01",
+          "general_imports": 266049824,
+          "consumption_imports": 261025296,
+          "general_ytd": 266049824,
+          "consumption_ytd": 261025296,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-02",
+          "general_imports": 208701720,
+          "consumption_imports": 202340384,
+          "general_ytd": 474751544,
+          "consumption_ytd": 463365680,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-03",
+          "general_imports": 251803648,
+          "consumption_imports": 244615824,
+          "general_ytd": 726555192,
+          "consumption_ytd": 707981504,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-04",
+          "general_imports": 240614928,
+          "consumption_imports": 239444512,
+          "general_ytd": 967170120,
+          "consumption_ytd": 947426016,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-05",
+          "general_imports": 255051096,
+          "consumption_imports": 254771944,
+          "general_ytd": 1222221216,
+          "consumption_ytd": 1202197960,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-06",
+          "general_imports": 212301024,
+          "consumption_imports": 211674048,
+          "general_ytd": 1434522240,
+          "consumption_ytd": 1413872008,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-07",
+          "general_imports": 291972696,
+          "consumption_imports": 288495912,
+          "general_ytd": 1726494936,
+          "consumption_ytd": 1702367920,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-08",
+          "general_imports": 249666952,
+          "consumption_imports": 245257624,
+          "general_ytd": 1976161888,
+          "consumption_ytd": 1947625544,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-09",
+          "general_imports": 281044680,
+          "consumption_imports": 278202096,
+          "general_ytd": 2257206568,
+          "consumption_ytd": 2225827640,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-10",
+          "general_imports": 305228120,
+          "consumption_imports": 303720072,
+          "general_ytd": 2562434688,
+          "consumption_ytd": 2529547712,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-11",
+          "general_imports": 250367864,
+          "consumption_imports": 249303392,
+          "general_ytd": 2812802552,
+          "consumption_ytd": 2778851104,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-12",
+          "general_imports": 206211432,
+          "consumption_imports": 205353840,
+          "general_ytd": 3019013984,
+          "consumption_ytd": 2984204944,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-01",
+          "general_imports": 209206088,
+          "consumption_imports": 206669576,
+          "general_ytd": 209206088,
+          "consumption_ytd": 206669576,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-02",
+          "general_imports": 212959136,
+          "consumption_imports": 210694088,
+          "general_ytd": 422165224,
+          "consumption_ytd": 417363664,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-03",
+          "general_imports": 228670632,
+          "consumption_imports": 229639784,
+          "general_ytd": 650835856,
+          "consumption_ytd": 647003448,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-04",
+          "general_imports": 181155928,
+          "consumption_imports": 177762816,
+          "general_ytd": 831991784,
+          "consumption_ytd": 824766264,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-05",
+          "general_imports": 208485584,
+          "consumption_imports": 205279128,
+          "general_ytd": 1040477368,
+          "consumption_ytd": 1030045392,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-06",
+          "general_imports": 159808216,
+          "consumption_imports": 158886128,
+          "general_ytd": 1200285584,
+          "consumption_ytd": 1188931520,
+          "census_last_update": "0"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Canada",
+          "general_imports": 51878280,
+          "consumption_imports": 51878280
+        },
+        {
+          "name": "China",
+          "general_imports": 44957224,
+          "consumption_imports": 45272592
+        },
+        {
+          "name": "Mexico",
+          "general_imports": 18130744,
+          "consumption_imports": 18130744
+        },
+        {
+          "name": "Germany",
+          "general_imports": 6280184,
+          "consumption_imports": 6283168
+        },
+        {
+          "name": "Korea, South",
+          "general_imports": 4918360,
+          "consumption_imports": 4918360
+        },
+        {
+          "name": "Vietnam",
+          "general_imports": 4715912,
+          "consumption_imports": 4715912
+        },
+        {
+          "name": "Finland",
+          "general_imports": 4151224,
+          "consumption_imports": 4151224
+        },
+        {
+          "name": "Bulgaria",
+          "general_imports": 4025960,
+          "consumption_imports": 2937432
+        },
+        {
+          "name": "Cambodia",
+          "general_imports": 3754080,
+          "consumption_imports": 3754080
+        },
+        {
+          "name": "Japan",
+          "general_imports": 2949576,
+          "consumption_imports": 2815944
+        },
+        {
+          "name": "Estonia",
+          "general_imports": 2751656,
+          "consumption_imports": 2751656
+        },
+        {
+          "name": "United Kingdom",
+          "general_imports": 2685968,
+          "consumption_imports": 2685968
+        },
+        {
+          "name": "Portugal",
+          "general_imports": 2660720,
+          "consumption_imports": 2660720
+        },
+        {
+          "name": "France",
+          "general_imports": 1350160,
+          "consumption_imports": 1350160
+        },
+        {
+          "name": "Czechia",
+          "general_imports": 1108024,
+          "consumption_imports": 1108024
+        },
+        {
+          "name": "Slovenia",
+          "general_imports": 849864,
+          "consumption_imports": 849864
+        },
+        {
+          "name": "India",
+          "general_imports": 796520,
+          "consumption_imports": 796520
+        },
+        {
+          "name": "Thailand",
+          "general_imports": 543608,
+          "consumption_imports": 543608
+        },
+        {
+          "name": "Poland",
+          "general_imports": 508096,
+          "consumption_imports": 508096
+        },
+        {
+          "name": "Switzerland",
+          "general_imports": 258064,
+          "consumption_imports": 258064
+        },
+        {
+          "name": "Taiwan",
+          "general_imports": 122400,
+          "consumption_imports": 122400
+        },
+        {
+          "name": "Spain",
+          "general_imports": 106000,
+          "consumption_imports": 106000
+        },
+        {
+          "name": "Belgium",
+          "general_imports": 92832,
+          "consumption_imports": 92832
+        },
+        {
+          "name": "Sweden",
+          "general_imports": 79392,
+          "consumption_imports": 79392
+        },
+        {
+          "name": "Italy",
+          "general_imports": 51376,
+          "consumption_imports": 51376
+        },
+        {
+          "name": "Netherlands",
+          "general_imports": 25496,
+          "consumption_imports": 25496
+        },
+        {
+          "name": "South Africa",
+          "general_imports": 20000,
+          "consumption_imports": 20000
+        },
+        {
+          "name": "Norway",
+          "general_imports": 18280,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Turkey",
+          "general_imports": 18216,
+          "consumption_imports": 18216
+        },
+        {
+          "name": "Colombia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Denmark",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Ireland",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Austria",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Ukraine",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Romania",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Malaysia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Indonesia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Hong Kong",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Australia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "New Zealand",
+          "general_imports": 0,
+          "consumption_imports": 0
+        }
+      ]
+    },
+    {
+      "code": "8516.79.0000",
+      "api_code": "8516790000",
+      "slug": "portable-infrared-saunas",
+      "label": "Other domestic electrothermic appliances",
+      "scope_note": "Broad proxy category. It includes domestic electrothermic appliances other than portable infrared saunas.",
+      "series": [
+        {
+          "month": "2023-07",
+          "general_imports": 1187341200,
+          "consumption_imports": 1165849080,
+          "general_ytd": 7578699856,
+          "consumption_ytd": 7520587720,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-08",
+          "general_imports": 1430168168,
+          "consumption_imports": 1394260888,
+          "general_ytd": 9008868024,
+          "consumption_ytd": 8914848608,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-09",
+          "general_imports": 1633361912,
+          "consumption_imports": 1639696016,
+          "general_ytd": 10642229936,
+          "consumption_ytd": 10554544624,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-10",
+          "general_imports": 1825708072,
+          "consumption_imports": 1858049520,
+          "general_ytd": 12467938008,
+          "consumption_ytd": 12412594144,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-11",
+          "general_imports": 1594050176,
+          "consumption_imports": 1604122104,
+          "general_ytd": 14061988184,
+          "consumption_ytd": 14016716248,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2023-12",
+          "general_imports": 1450944232,
+          "consumption_imports": 1446014016,
+          "general_ytd": 15512932416,
+          "consumption_ytd": 15462730264,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-01",
+          "general_imports": 1522992056,
+          "consumption_imports": 1521366904,
+          "general_ytd": 1522992056,
+          "consumption_ytd": 1521366904,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-02",
+          "general_imports": 1288259680,
+          "consumption_imports": 1291325536,
+          "general_ytd": 2811251736,
+          "consumption_ytd": 2812692440,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-03",
+          "general_imports": 1016621808,
+          "consumption_imports": 1011779408,
+          "general_ytd": 3827873544,
+          "consumption_ytd": 3824471848,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-04",
+          "general_imports": 1191140752,
+          "consumption_imports": 1168027544,
+          "general_ytd": 5019014296,
+          "consumption_ytd": 4992499392,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-05",
+          "general_imports": 1335272336,
+          "consumption_imports": 1322722608,
+          "general_ytd": 6354286632,
+          "consumption_ytd": 6315222000,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-06",
+          "general_imports": 1413595192,
+          "consumption_imports": 1396188568,
+          "general_ytd": 7767881824,
+          "consumption_ytd": 7711410568,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-07",
+          "general_imports": 1615214624,
+          "consumption_imports": 1614184136,
+          "general_ytd": 9383096448,
+          "consumption_ytd": 9325594704,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-08",
+          "general_imports": 1819438552,
+          "consumption_imports": 1823169888,
+          "general_ytd": 11202535000,
+          "consumption_ytd": 11148764592,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-09",
+          "general_imports": 2128637688,
+          "consumption_imports": 2122379344,
+          "general_ytd": 13331172688,
+          "consumption_ytd": 13271143936,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-10",
+          "general_imports": 2040858200,
+          "consumption_imports": 2037900472,
+          "general_ytd": 15372030888,
+          "consumption_ytd": 15309044408,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-11",
+          "general_imports": 1929577744,
+          "consumption_imports": 1939581088,
+          "general_ytd": 17301608632,
+          "consumption_ytd": 17248625496,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2024-12",
+          "general_imports": 1550786392,
+          "consumption_imports": 1542712488,
+          "general_ytd": 18852395024,
+          "consumption_ytd": 18791337984,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-01",
+          "general_imports": 1596986280,
+          "consumption_imports": 1586858392,
+          "general_ytd": 1596986280,
+          "consumption_ytd": 1586858392,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-02",
+          "general_imports": 1385220656,
+          "consumption_imports": 1404524792,
+          "general_ytd": 2982206936,
+          "consumption_ytd": 2991383184,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-03",
+          "general_imports": 1159223208,
+          "consumption_imports": 1170697176,
+          "general_ytd": 4141430144,
+          "consumption_ytd": 4162080360,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-04",
+          "general_imports": 1134391512,
+          "consumption_imports": 1142477376,
+          "general_ytd": 5275821656,
+          "consumption_ytd": 5304557736,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-05",
+          "general_imports": 789795432,
+          "consumption_imports": 802654808,
+          "general_ytd": 6065617088,
+          "consumption_ytd": 6107212544,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-06",
+          "general_imports": 851106408,
+          "consumption_imports": 865405064,
+          "general_ytd": 6916723496,
+          "consumption_ytd": 6972617608,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-07",
+          "general_imports": 1333725120,
+          "consumption_imports": 1275306440,
+          "general_ytd": 8250448616,
+          "consumption_ytd": 8247924048,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-08",
+          "general_imports": 1366200104,
+          "consumption_imports": 1328679584,
+          "general_ytd": 9616648720,
+          "consumption_ytd": 9576603632,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-09",
+          "general_imports": 1394614992,
+          "consumption_imports": 1396172648,
+          "general_ytd": 11011263712,
+          "consumption_ytd": 10972776280,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-10",
+          "general_imports": 1693256568,
+          "consumption_imports": 1711906144,
+          "general_ytd": 12704520280,
+          "consumption_ytd": 12684682424,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-11",
+          "general_imports": 1384385144,
+          "consumption_imports": 1405219208,
+          "general_ytd": 14088905424,
+          "consumption_ytd": 14089901632,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2025-12",
+          "general_imports": 1192084816,
+          "consumption_imports": 1193568560,
+          "general_ytd": 15280990240,
+          "consumption_ytd": 15283470192,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-01",
+          "general_imports": 1262291760,
+          "consumption_imports": 1242002400,
+          "general_ytd": 1262291760,
+          "consumption_ytd": 1242002400,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-02",
+          "general_imports": 1134985880,
+          "consumption_imports": 1112624944,
+          "general_ytd": 2397277640,
+          "consumption_ytd": 2354627344,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-03",
+          "general_imports": 1000688776,
+          "consumption_imports": 982962832,
+          "general_ytd": 3397966416,
+          "consumption_ytd": 3337590176,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-04",
+          "general_imports": 887370688,
+          "consumption_imports": 880177320,
+          "general_ytd": 4285337104,
+          "consumption_ytd": 4217767496,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-05",
+          "general_imports": 1171345528,
+          "consumption_imports": 1168125040,
+          "general_ytd": 5456682632,
+          "consumption_ytd": 5385892536,
+          "census_last_update": "0"
+        },
+        {
+          "month": "2026-06",
+          "general_imports": 1238512304,
+          "consumption_imports": 1287779456,
+          "general_ytd": 6695194936,
+          "consumption_ytd": 6673671992,
+          "census_last_update": "0"
+        }
+      ],
+      "countries": [
+        {
+          "name": "China",
+          "general_imports": 996176712,
+          "consumption_imports": 1031827216
+        },
+        {
+          "name": "Mexico",
+          "general_imports": 88072528,
+          "consumption_imports": 88072528
+        },
+        {
+          "name": "Vietnam",
+          "general_imports": 34173400,
+          "consumption_imports": 36306600
+        },
+        {
+          "name": "India",
+          "general_imports": 31227744,
+          "consumption_imports": 31227744
+        },
+        {
+          "name": "Japan",
+          "general_imports": 21279504,
+          "consumption_imports": 21279504
+        },
+        {
+          "name": "Indonesia",
+          "general_imports": 12405016,
+          "consumption_imports": 23399848
+        },
+        {
+          "name": "Thailand",
+          "general_imports": 10873360,
+          "consumption_imports": 11223864
+        },
+        {
+          "name": "France",
+          "general_imports": 7851768,
+          "consumption_imports": 7851768
+        },
+        {
+          "name": "Taiwan",
+          "general_imports": 7034240,
+          "consumption_imports": 7260624
+        },
+        {
+          "name": "Canada",
+          "general_imports": 5249968,
+          "consumption_imports": 5249968
+        },
+        {
+          "name": "Malaysia",
+          "general_imports": 4014200,
+          "consumption_imports": 4014200
+        },
+        {
+          "name": "Germany",
+          "general_imports": 3271576,
+          "consumption_imports": 3271576
+        },
+        {
+          "name": "Cambodia",
+          "general_imports": 2722488,
+          "consumption_imports": 2722488
+        },
+        {
+          "name": "United Kingdom",
+          "general_imports": 2481904,
+          "consumption_imports": 2481904
+        },
+        {
+          "name": "Korea, South",
+          "general_imports": 2336368,
+          "consumption_imports": 2336368
+        },
+        {
+          "name": "Ukraine",
+          "general_imports": 2253112,
+          "consumption_imports": 2253112
+        },
+        {
+          "name": "South Africa",
+          "general_imports": 1374360,
+          "consumption_imports": 1374360
+        },
+        {
+          "name": "Finland",
+          "general_imports": 1364600,
+          "consumption_imports": 1364600
+        },
+        {
+          "name": "Italy",
+          "general_imports": 1294928,
+          "consumption_imports": 1294928
+        },
+        {
+          "name": "Hong Kong",
+          "general_imports": 701816,
+          "consumption_imports": 701816
+        },
+        {
+          "name": "Austria",
+          "general_imports": 509608,
+          "consumption_imports": 509608
+        },
+        {
+          "name": "Netherlands",
+          "general_imports": 399672,
+          "consumption_imports": 399672
+        },
+        {
+          "name": "Romania",
+          "general_imports": 353488,
+          "consumption_imports": 353488
+        },
+        {
+          "name": "Spain",
+          "general_imports": 349248,
+          "consumption_imports": 349248
+        },
+        {
+          "name": "Hungary",
+          "general_imports": 250800,
+          "consumption_imports": 250800
+        },
+        {
+          "name": "Philippines",
+          "general_imports": 221648,
+          "consumption_imports": 133376
+        },
+        {
+          "name": "Slovenia",
+          "general_imports": 68232,
+          "consumption_imports": 68232
+        },
+        {
+          "name": "Turkey",
+          "general_imports": 56360,
+          "consumption_imports": 56360
+        },
+        {
+          "name": "Switzerland",
+          "general_imports": 51056,
+          "consumption_imports": 51056
+        },
+        {
+          "name": "Costa Rica",
+          "general_imports": 48760,
+          "consumption_imports": 48760
+        },
+        {
+          "name": "Sweden",
+          "general_imports": 43840,
+          "consumption_imports": 43840
+        },
+        {
+          "name": "Norway",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Belgium",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Czechia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Slovakia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Estonia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Latvia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Lithuania",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Poland",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Portugal",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "North Macedonia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Saudi Arabia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "United Arab Emirates",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Afghanistan",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Singapore",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Australia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "New Zealand",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Cameroon",
+          "general_imports": 0,
+          "consumption_imports": 0
+        }
+      ]
+    }
+  ]
 }
