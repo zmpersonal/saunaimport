@@ -22,13 +22,35 @@ def month_shift(y: int, m: int, delta: int):
 
 
 def api_get(params):
-    q = urllib.parse.urlencode(params, quote_via=urllib.parse.quote_plus, safe=':*+')
-    req = urllib.request.Request(f"{API}?{q}", headers={"User-Agent":"SaunaImport.com data updater/1.0"})
+    q = urllib.parse.urlencode(
+        params,
+        quote_via=urllib.parse.quote_plus,
+        safe=':*+'
+    )
+
+    req = urllib.request.Request(
+        f"{API}?{q}",
+        headers={"User-Agent": "SaunaImport.com data updater/1.0"}
+    )
+
     with urllib.request.urlopen(req, timeout=45) as r:
         raw = r.read().decode("utf-8")
-    data = json.loads(raw)
+
+    # Census may return an empty response when a requested
+    # statistical month has not been released yet.
+    if not raw.strip():
+        return []
+
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError as e:
+        raise RuntimeError(
+            f"Census API returned a non-JSON response: {raw[:500]!r}"
+        ) from e
+
     if not isinstance(data, list) or len(data) < 2:
         return []
+
     headers = data[0]
     return [dict(zip(headers, row)) for row in data[1:]]
 
