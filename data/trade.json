@@ -1,0 +1,8 @@
+{
+  "status": "pending",
+  "last_updated": null,
+  "latest_month": null,
+  "source": "U.S. Census Bureau International Trade API",
+  "methodology": "Category-level proxy data only. See /methodology/.",
+  "categories": []
+}

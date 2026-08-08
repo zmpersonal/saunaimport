@@ -1,0 +1,35 @@
+[
+  {
+    "code": "9406100000",
+    "short_code": "9406.10.0000",
+    "slug": "prefabricated-saunas",
+    "label": "Prefabricated buildings of wood",
+    "sauna_use": "CBP classified a weather-resistant prefabricated wooden sauna under this subheading in ruling N304393 (2019).",
+    "scope_note": "Broad proxy category. It includes wooden prefabricated buildings other than saunas, so category totals must not be represented as sauna-only imports.",
+    "confidence": "Confirmed sauna classification; broad statistical category",
+    "cbp_ruling": "N304393",
+    "cbp_url": "https://rulings.cbp.gov/ruling/N304393"
+  },
+  {
+    "code": "8516290090",
+    "short_code": "8516.29.0090",
+    "slug": "electric-sauna-heaters",
+    "label": "Other electric space heating apparatus",
+    "sauna_use": "CBP Headquarters ruling H179957 classified an electric sauna heater in heading 8516, subheading 8516.29.00.",
+    "scope_note": "Broad proxy category. It includes electric space-heating equipment other than sauna heaters.",
+    "confidence": "Confirmed heater classification; broad statistical category",
+    "cbp_ruling": "H179957",
+    "cbp_url": "https://rulings.cbp.gov/ruling/H179957"
+  },
+  {
+    "code": "8516790000",
+    "short_code": "8516.79.0000",
+    "slug": "portable-infrared-saunas",
+    "label": "Other domestic electrothermic appliances",
+    "sauna_use": "CBP classified a portable infrared sauna under this subheading in ruling N333797 (2023).",
+    "scope_note": "Broad proxy category. It includes domestic electrothermic appliances other than portable infrared saunas.",
+    "confidence": "Confirmed portable sauna classification; broad statistical category",
+    "cbp_ruling": "N333797",
+    "cbp_url": "https://rulings.cbp.gov/ruling/N333797"
+  }
+]

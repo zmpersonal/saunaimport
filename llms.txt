@@ -1,0 +1,11 @@
+# Sauna Import
+
+> U.S. sauna trade and tariff classification research.
+
+Core pages:
+- https://saunaimport.com/data/ — Census trade-category dashboard
+- https://saunaimport.com/classifications/ — sauna-relevant HTS classification research
+- https://saunaimport.com/rulings/ — curated CBP sauna rulings
+- https://saunaimport.com/methodology/ — data limitations and update method
+
+Important limitation: tracked HTS categories are broad and include non-sauna merchandise. Do not cite their totals as sauna-only imports or as total U.S. sauna market size.
