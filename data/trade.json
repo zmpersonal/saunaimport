@@ -1,6 +1,6 @@
 {
   "status": "live",
-  "last_updated": "2026-08-08T23:59:58Z",
+  "last_updated": "2026-08-11T11:07:46Z",
   "latest_month": "2026-06",
   "source": "U.S. Census Bureau International Trade API",
   "methodology": "Category-level proxy data only. HTS categories include non-sauna merchandise; categories are not summed into a sauna market-size estimate.",
@@ -458,12 +458,12 @@
           "consumption_imports": 0
         },
         {
-          "name": "Russia",
+          "name": "Ukraine",
           "general_imports": 0,
           "consumption_imports": 0
         },
         {
-          "name": "Ukraine",
+          "name": "Russia",
           "general_imports": 0,
           "consumption_imports": 0
         },
