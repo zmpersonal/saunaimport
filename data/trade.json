@@ -1,7 +1,7 @@
 {
   "status": "live",
-  "last_updated": "2026-09-01T14:57:45Z",
-  "latest_month": "2026-06",
+  "last_updated": "2026-09-08T14:37:45Z",
+  "latest_month": "2026-07",
   "source": "U.S. Census Bureau International Trade API",
   "methodology": "Category-level proxy data only. HTS categories include non-sauna merchandise; categories are not summed into a sauna market-size estimate.",
   "categories": [
@@ -12,14 +12,6 @@
       "label": "Prefabricated buildings of wood",
       "scope_note": "Broad proxy category. It includes wooden prefabricated buildings other than saunas, so category totals must not be represented as sauna-only imports.",
       "series": [
-        {
-          "month": "2023-07",
-          "general_imports": 219273560,
-          "consumption_imports": 219273560,
-          "general_ytd": 1133470472,
-          "consumption_ytd": 1133470472,
-          "census_last_update": "0"
-        },
         {
           "month": "2023-08",
           "general_imports": 158120600,
@@ -299,128 +291,136 @@
           "general_ytd": 1131992760,
           "consumption_ytd": 1131992760,
           "census_last_update": "0"
+        },
+        {
+          "month": "2026-07",
+          "general_imports": 212474776,
+          "consumption_imports": 212474776,
+          "general_ytd": 1344467536,
+          "consumption_ytd": 1344467536,
+          "census_last_update": "0"
         }
       ],
       "countries": [
         {
           "name": "Canada",
-          "general_imports": 101110360,
-          "consumption_imports": 101110360
-        },
-        {
-          "name": "Vietnam",
-          "general_imports": 28331352,
-          "consumption_imports": 28331352
+          "general_imports": 99508240,
+          "consumption_imports": 99508240
         },
         {
           "name": "Mexico",
-          "general_imports": 26835440,
-          "consumption_imports": 26835440
+          "general_imports": 36852112,
+          "consumption_imports": 36852112
+        },
+        {
+          "name": "Vietnam",
+          "general_imports": 33351216,
+          "consumption_imports": 33351216
         },
         {
           "name": "Estonia",
-          "general_imports": 13976760,
-          "consumption_imports": 13976760
+          "general_imports": 16795216,
+          "consumption_imports": 16795216
         },
         {
           "name": "China",
-          "general_imports": 10909384,
-          "consumption_imports": 10909384
-        },
-        {
-          "name": "Indonesia",
-          "general_imports": 2653000,
-          "consumption_imports": 2653000
-        },
-        {
-          "name": "Romania",
-          "general_imports": 2474792,
-          "consumption_imports": 2474792
+          "general_imports": 16059168,
+          "consumption_imports": 16059168
         },
         {
           "name": "Finland",
-          "general_imports": 1847288,
-          "consumption_imports": 1847288
-        },
-        {
-          "name": "Belgium",
-          "general_imports": 926768,
-          "consumption_imports": 926768
-        },
-        {
-          "name": "Nicaragua",
-          "general_imports": 794288,
-          "consumption_imports": 794288
-        },
-        {
-          "name": "Italy",
-          "general_imports": 718984,
-          "consumption_imports": 718984
-        },
-        {
-          "name": "Japan",
-          "general_imports": 670416,
-          "consumption_imports": 670416
-        },
-        {
-          "name": "Lithuania",
-          "general_imports": 508272,
-          "consumption_imports": 508272
-        },
-        {
-          "name": "Georgia",
-          "general_imports": 179040,
-          "consumption_imports": 179040
-        },
-        {
-          "name": "Turkey",
-          "general_imports": 169000,
-          "consumption_imports": 169000
-        },
-        {
-          "name": "Netherlands",
-          "general_imports": 161944,
-          "consumption_imports": 161944
+          "general_imports": 2229016,
+          "consumption_imports": 2229016
         },
         {
           "name": "Spain",
-          "general_imports": 139344,
-          "consumption_imports": 139344
+          "general_imports": 1529880,
+          "consumption_imports": 1529880
         },
         {
           "name": "Latvia",
-          "general_imports": 28880,
-          "consumption_imports": 28880
-        },
-        {
-          "name": "Lebanon",
-          "general_imports": 28800,
-          "consumption_imports": 28800
+          "general_imports": 1440432,
+          "consumption_imports": 1440432
         },
         {
           "name": "Germany",
-          "general_imports": 16000,
-          "consumption_imports": 16000
+          "general_imports": 797832,
+          "consumption_imports": 797832
+        },
+        {
+          "name": "Nicaragua",
+          "general_imports": 771752,
+          "consumption_imports": 771752
+        },
+        {
+          "name": "Italy",
+          "general_imports": 524656,
+          "consumption_imports": 524656
+        },
+        {
+          "name": "Poland",
+          "general_imports": 438008,
+          "consumption_imports": 438008
+        },
+        {
+          "name": "Belgium",
+          "general_imports": 425440,
+          "consumption_imports": 425440
+        },
+        {
+          "name": "Korea, South",
+          "general_imports": 415040,
+          "consumption_imports": 415040
+        },
+        {
+          "name": "Ukraine",
+          "general_imports": 412760,
+          "consumption_imports": 412760
         },
         {
           "name": "Mongolia",
-          "general_imports": 12000,
-          "consumption_imports": 12000
+          "general_imports": 392344,
+          "consumption_imports": 392344
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "general_imports": 195800,
+          "consumption_imports": 195800
+        },
+        {
+          "name": "Lithuania",
+          "general_imports": 142424,
+          "consumption_imports": 142424
         },
         {
           "name": "United Kingdom",
-          "general_imports": 4720,
-          "consumption_imports": 4720
+          "general_imports": 90144,
+          "consumption_imports": 90144
         },
         {
-          "name": "Australia",
-          "general_imports": 3608,
-          "consumption_imports": 3608
+          "name": "Turkey",
+          "general_imports": 51080,
+          "consumption_imports": 51080
         },
         {
-          "name": "France",
-          "general_imports": 3200,
-          "consumption_imports": 3200
+          "name": "Romania",
+          "general_imports": 32000,
+          "consumption_imports": 32000
+        },
+        {
+          "name": "Netherlands",
+          "general_imports": 9008,
+          "consumption_imports": 9008
+        },
+        {
+          "name": "Denmark",
+          "general_imports": 6856,
+          "consumption_imports": 6856
+        },
+        {
+          "name": "Indonesia",
+          "general_imports": 4352,
+          "consumption_imports": 4352
         },
         {
           "name": "El Salvador",
@@ -438,7 +438,7 @@
           "consumption_imports": 0
         },
         {
-          "name": "Denmark",
+          "name": "France",
           "general_imports": 0,
           "consumption_imports": 0
         },
@@ -453,17 +453,12 @@
           "consumption_imports": 0
         },
         {
-          "name": "Poland",
-          "general_imports": 0,
-          "consumption_imports": 0
-        },
-        {
-          "name": "Ukraine",
-          "general_imports": 0,
-          "consumption_imports": 0
-        },
-        {
           "name": "Russia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Georgia",
           "general_imports": 0,
           "consumption_imports": 0
         },
@@ -474,6 +469,11 @@
         },
         {
           "name": "Serbia",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Lebanon",
           "general_imports": 0,
           "consumption_imports": 0
         },
@@ -503,12 +503,17 @@
           "consumption_imports": 0
         },
         {
-          "name": "Korea, South",
+          "name": "Hong Kong",
           "general_imports": 0,
           "consumption_imports": 0
         },
         {
-          "name": "Hong Kong",
+          "name": "Japan",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Australia",
           "general_imports": 0,
           "consumption_imports": 0
         }
@@ -521,14 +526,6 @@
       "label": "Other electric space heating apparatus",
       "scope_note": "Broad proxy category. It includes electric space-heating equipment other than sauna heaters.",
       "series": [
-        {
-          "month": "2023-07",
-          "general_imports": 204626056,
-          "consumption_imports": 203882064,
-          "general_ytd": 1304796176,
-          "consumption_ytd": 1299595032,
-          "census_last_update": "0"
-        },
         {
           "month": "2023-08",
           "general_imports": 306374688,
@@ -808,158 +805,161 @@
           "general_ytd": 1200285584,
           "consumption_ytd": 1188931520,
           "census_last_update": "0"
+        },
+        {
+          "month": "2026-07",
+          "general_imports": 231031976,
+          "consumption_imports": 228352704,
+          "general_ytd": 1431317560,
+          "consumption_ytd": 1417284224,
+          "census_last_update": "0"
         }
       ],
       "countries": [
         {
-          "name": "Canada",
-          "general_imports": 51878280,
-          "consumption_imports": 51878280
-        },
-        {
           "name": "China",
-          "general_imports": 44957224,
-          "consumption_imports": 45272592
+          "general_imports": 57849336,
+          "consumption_imports": 57811992
         },
         {
-          "name": "Mexico",
-          "general_imports": 18130744,
-          "consumption_imports": 18130744
-        },
-        {
-          "name": "Germany",
-          "general_imports": 6280184,
-          "consumption_imports": 6283168
-        },
-        {
-          "name": "Korea, South",
-          "general_imports": 4918360,
-          "consumption_imports": 4918360
-        },
-        {
-          "name": "Vietnam",
-          "general_imports": 4715912,
-          "consumption_imports": 4715912
-        },
-        {
-          "name": "Finland",
-          "general_imports": 4151224,
-          "consumption_imports": 4151224
-        },
-        {
-          "name": "Bulgaria",
-          "general_imports": 4025960,
-          "consumption_imports": 2937432
-        },
-        {
-          "name": "Cambodia",
-          "general_imports": 3754080,
-          "consumption_imports": 3754080
-        },
-        {
-          "name": "Japan",
-          "general_imports": 2949576,
-          "consumption_imports": 2815944
-        },
-        {
-          "name": "Estonia",
-          "general_imports": 2751656,
-          "consumption_imports": 2751656
-        },
-        {
-          "name": "United Kingdom",
-          "general_imports": 2685968,
-          "consumption_imports": 2685968
-        },
-        {
-          "name": "Portugal",
-          "general_imports": 2660720,
-          "consumption_imports": 2660720
-        },
-        {
-          "name": "France",
-          "general_imports": 1350160,
-          "consumption_imports": 1350160
-        },
-        {
-          "name": "Czechia",
-          "general_imports": 1108024,
-          "consumption_imports": 1108024
-        },
-        {
-          "name": "Slovenia",
-          "general_imports": 849864,
-          "consumption_imports": 849864
-        },
-        {
-          "name": "India",
-          "general_imports": 796520,
-          "consumption_imports": 796520
-        },
-        {
-          "name": "Thailand",
-          "general_imports": 543608,
-          "consumption_imports": 543608
-        },
-        {
-          "name": "Poland",
-          "general_imports": 508096,
-          "consumption_imports": 508096
-        },
-        {
-          "name": "Switzerland",
-          "general_imports": 258064,
-          "consumption_imports": 258064
-        },
-        {
-          "name": "Taiwan",
-          "general_imports": 122400,
-          "consumption_imports": 122400
-        },
-        {
-          "name": "Spain",
-          "general_imports": 106000,
-          "consumption_imports": 106000
-        },
-        {
-          "name": "Belgium",
-          "general_imports": 92832,
-          "consumption_imports": 92832
-        },
-        {
-          "name": "Sweden",
-          "general_imports": 79392,
-          "consumption_imports": 79392
+          "name": "Canada",
+          "general_imports": 49316352,
+          "consumption_imports": 49316352
         },
         {
           "name": "Italy",
-          "general_imports": 51376,
-          "consumption_imports": 51376
+          "general_imports": 29725648,
+          "consumption_imports": 29725648
         },
         {
-          "name": "Netherlands",
-          "general_imports": 25496,
-          "consumption_imports": 25496
+          "name": "Mexico",
+          "general_imports": 26644160,
+          "consumption_imports": 26644160
         },
         {
-          "name": "South Africa",
-          "general_imports": 20000,
-          "consumption_imports": 20000
+          "name": "Finland",
+          "general_imports": 16050280,
+          "consumption_imports": 16050280
         },
         {
-          "name": "Norway",
-          "general_imports": 18280,
-          "consumption_imports": 0
+          "name": "Cambodia",
+          "general_imports": 10586064,
+          "consumption_imports": 10586064
         },
         {
-          "name": "Turkey",
-          "general_imports": 18216,
-          "consumption_imports": 18216
+          "name": "Vietnam",
+          "general_imports": 9028920,
+          "consumption_imports": 9028920
+        },
+        {
+          "name": "Portugal",
+          "general_imports": 5018000,
+          "consumption_imports": 5018000
+        },
+        {
+          "name": "Japan",
+          "general_imports": 4477360,
+          "consumption_imports": 4076448
+        },
+        {
+          "name": "Bulgaria",
+          "general_imports": 4353208,
+          "consumption_imports": 2066536
+        },
+        {
+          "name": "Thailand",
+          "general_imports": 3906400,
+          "consumption_imports": 3906400
+        },
+        {
+          "name": "Germany",
+          "general_imports": 3489840,
+          "consumption_imports": 3489840
+        },
+        {
+          "name": "Korea, South",
+          "general_imports": 3445896,
+          "consumption_imports": 3445896
+        },
+        {
+          "name": "United Kingdom",
+          "general_imports": 2579248,
+          "consumption_imports": 2579248
+        },
+        {
+          "name": "France",
+          "general_imports": 1253968,
+          "consumption_imports": 1253968
+        },
+        {
+          "name": "India",
+          "general_imports": 1108656,
+          "consumption_imports": 1192528
+        },
+        {
+          "name": "Sweden",
+          "general_imports": 633840,
+          "consumption_imports": 633840
         },
         {
           "name": "Colombia",
-          "general_imports": 0,
-          "consumption_imports": 0
+          "general_imports": 554336,
+          "consumption_imports": 554336
+        },
+        {
+          "name": "Estonia",
+          "general_imports": 245384,
+          "consumption_imports": 245384
+        },
+        {
+          "name": "Switzerland",
+          "general_imports": 181752,
+          "consumption_imports": 181752
+        },
+        {
+          "name": "New Zealand",
+          "general_imports": 160384,
+          "consumption_imports": 160384
+        },
+        {
+          "name": "Turkey",
+          "general_imports": 93440,
+          "consumption_imports": 93440
+        },
+        {
+          "name": "Czechia",
+          "general_imports": 82384,
+          "consumption_imports": 82384
+        },
+        {
+          "name": "Norway",
+          "general_imports": 63416,
+          "consumption_imports": 25200
+        },
+        {
+          "name": "Taiwan",
+          "general_imports": 51512,
+          "consumption_imports": 51512
+        },
+        {
+          "name": "Brazil",
+          "general_imports": 47048,
+          "consumption_imports": 47048
+        },
+        {
+          "name": "Netherlands",
+          "general_imports": 43952,
+          "consumption_imports": 43952
+        },
+        {
+          "name": "Austria",
+          "general_imports": 23256,
+          "consumption_imports": 23256
+        },
+        {
+          "name": "Belgium",
+          "general_imports": 17936,
+          "consumption_imports": 17936
         },
         {
           "name": "Denmark",
@@ -972,12 +972,22 @@
           "consumption_imports": 0
         },
         {
-          "name": "Austria",
+          "name": "Poland",
           "general_imports": 0,
           "consumption_imports": 0
         },
         {
           "name": "Ukraine",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Spain",
+          "general_imports": 0,
+          "consumption_imports": 0
+        },
+        {
+          "name": "Slovenia",
           "general_imports": 0,
           "consumption_imports": 0
         },
@@ -1007,7 +1017,7 @@
           "consumption_imports": 0
         },
         {
-          "name": "New Zealand",
+          "name": "South Africa",
           "general_imports": 0,
           "consumption_imports": 0
         }
@@ -1020,14 +1030,6 @@
       "label": "Other domestic electrothermic appliances",
       "scope_note": "Broad proxy category. It includes domestic electrothermic appliances other than portable infrared saunas.",
       "series": [
-        {
-          "month": "2023-07",
-          "general_imports": 1187341200,
-          "consumption_imports": 1165849080,
-          "general_ytd": 7578699856,
-          "consumption_ytd": 7520587720,
-          "census_last_update": "0"
-        },
         {
           "month": "2023-08",
           "general_imports": 1430168168,
@@ -1307,163 +1309,191 @@
           "general_ytd": 6695194936,
           "consumption_ytd": 6673671992,
           "census_last_update": "0"
+        },
+        {
+          "month": "2026-07",
+          "general_imports": 1431734720,
+          "consumption_imports": 1439933032,
+          "general_ytd": 8126929656,
+          "consumption_ytd": 8113605024,
+          "census_last_update": "0"
         }
       ],
       "countries": [
         {
           "name": "China",
-          "general_imports": 996176712,
-          "consumption_imports": 1031827216
+          "general_imports": 1179636992,
+          "consumption_imports": 1181240544
         },
         {
           "name": "Mexico",
-          "general_imports": 88072528,
-          "consumption_imports": 88072528
+          "general_imports": 72620360,
+          "consumption_imports": 72620360
         },
         {
           "name": "Vietnam",
-          "general_imports": 34173400,
-          "consumption_imports": 36306600
-        },
-        {
-          "name": "India",
-          "general_imports": 31227744,
-          "consumption_imports": 31227744
+          "general_imports": 47094392,
+          "consumption_imports": 48872832
         },
         {
           "name": "Japan",
-          "general_imports": 21279504,
-          "consumption_imports": 21279504
+          "general_imports": 27811352,
+          "consumption_imports": 27811352
         },
         {
-          "name": "Indonesia",
-          "general_imports": 12405016,
-          "consumption_imports": 23399848
+          "name": "India",
+          "general_imports": 25386256,
+          "consumption_imports": 25325736
         },
         {
           "name": "Thailand",
-          "general_imports": 10873360,
-          "consumption_imports": 11223864
+          "general_imports": 18183296,
+          "consumption_imports": 18381448
         },
         {
-          "name": "France",
-          "general_imports": 7851768,
-          "consumption_imports": 7851768
-        },
-        {
-          "name": "Taiwan",
-          "general_imports": 7034240,
-          "consumption_imports": 7260624
-        },
-        {
-          "name": "Canada",
-          "general_imports": 5249968,
-          "consumption_imports": 5249968
-        },
-        {
-          "name": "Malaysia",
-          "general_imports": 4014200,
-          "consumption_imports": 4014200
-        },
-        {
-          "name": "Germany",
-          "general_imports": 3271576,
-          "consumption_imports": 3271576
-        },
-        {
-          "name": "Cambodia",
-          "general_imports": 2722488,
-          "consumption_imports": 2722488
-        },
-        {
-          "name": "United Kingdom",
-          "general_imports": 2481904,
-          "consumption_imports": 2481904
+          "name": "Indonesia",
+          "general_imports": 10705320,
+          "consumption_imports": 15401200
         },
         {
           "name": "Korea, South",
-          "general_imports": 2336368,
-          "consumption_imports": 2336368
+          "general_imports": 7390880,
+          "consumption_imports": 7390880
         },
         {
-          "name": "Ukraine",
-          "general_imports": 2253112,
-          "consumption_imports": 2253112
+          "name": "Cambodia",
+          "general_imports": 6658008,
+          "consumption_imports": 6658008
         },
         {
-          "name": "South Africa",
-          "general_imports": 1374360,
-          "consumption_imports": 1374360
+          "name": "Taiwan",
+          "general_imports": 5844904,
+          "consumption_imports": 5766912
         },
         {
-          "name": "Finland",
-          "general_imports": 1364600,
-          "consumption_imports": 1364600
+          "name": "Germany",
+          "general_imports": 5591528,
+          "consumption_imports": 5652328
+        },
+        {
+          "name": "Malaysia",
+          "general_imports": 5128264,
+          "consumption_imports": 5128264
+        },
+        {
+          "name": "France",
+          "general_imports": 3609584,
+          "consumption_imports": 3609584
+        },
+        {
+          "name": "Canada",
+          "general_imports": 3160112,
+          "consumption_imports": 3160112
         },
         {
           "name": "Italy",
-          "general_imports": 1294928,
-          "consumption_imports": 1294928
-        },
-        {
-          "name": "Hong Kong",
-          "general_imports": 701816,
-          "consumption_imports": 701816
-        },
-        {
-          "name": "Austria",
-          "general_imports": 509608,
-          "consumption_imports": 509608
-        },
-        {
-          "name": "Netherlands",
-          "general_imports": 399672,
-          "consumption_imports": 399672
-        },
-        {
-          "name": "Romania",
-          "general_imports": 353488,
-          "consumption_imports": 353488
-        },
-        {
-          "name": "Spain",
-          "general_imports": 349248,
-          "consumption_imports": 349248
-        },
-        {
-          "name": "Hungary",
-          "general_imports": 250800,
-          "consumption_imports": 250800
+          "general_imports": 2758248,
+          "consumption_imports": 2758248
         },
         {
           "name": "Philippines",
-          "general_imports": 221648,
-          "consumption_imports": 133376
+          "general_imports": 2358240,
+          "consumption_imports": 2358240
         },
         {
-          "name": "Slovenia",
-          "general_imports": 68232,
-          "consumption_imports": 68232
+          "name": "United Kingdom",
+          "general_imports": 1885328,
+          "consumption_imports": 1885328
+        },
+        {
+          "name": "New Zealand",
+          "general_imports": 1302384,
+          "consumption_imports": 1302384
+        },
+        {
+          "name": "South Africa",
+          "general_imports": 1277208,
+          "consumption_imports": 1277208
+        },
+        {
+          "name": "Finland",
+          "general_imports": 920400,
+          "consumption_imports": 920400
+        },
+        {
+          "name": "Ukraine",
+          "general_imports": 552464,
+          "consumption_imports": 552464
+        },
+        {
+          "name": "Poland",
+          "general_imports": 532984,
+          "consumption_imports": 532984
+        },
+        {
+          "name": "Romania",
+          "general_imports": 286160,
+          "consumption_imports": 286160
         },
         {
           "name": "Turkey",
-          "general_imports": 56360,
-          "consumption_imports": 56360
+          "general_imports": 179376,
+          "consumption_imports": 179376
+        },
+        {
+          "name": "Austria",
+          "general_imports": 153640,
+          "consumption_imports": 153640
+        },
+        {
+          "name": "Hong Kong",
+          "general_imports": 147160,
+          "consumption_imports": 147160
+        },
+        {
+          "name": "Australia",
+          "general_imports": 121048,
+          "consumption_imports": 121048
+        },
+        {
+          "name": "Spain",
+          "general_imports": 110096,
+          "consumption_imports": 110096
+        },
+        {
+          "name": "Slovenia",
+          "general_imports": 95216,
+          "consumption_imports": 95216
+        },
+        {
+          "name": "Belgium",
+          "general_imports": 91072,
+          "consumption_imports": 91072
+        },
+        {
+          "name": "Slovakia",
+          "general_imports": 85616,
+          "consumption_imports": 85616
         },
         {
           "name": "Switzerland",
-          "general_imports": 51056,
-          "consumption_imports": 51056
+          "general_imports": 35064,
+          "consumption_imports": 35064
+        },
+        {
+          "name": "Portugal",
+          "general_imports": 21768,
+          "consumption_imports": 21768
         },
         {
           "name": "Costa Rica",
-          "general_imports": 48760,
-          "consumption_imports": 48760
+          "general_imports": 0,
+          "consumption_imports": 0
         },
         {
           "name": "Sweden",
-          "general_imports": 43840,
-          "consumption_imports": 43840
+          "general_imports": 0,
+          "consumption_imports": 0
         },
         {
           "name": "Norway",
@@ -1471,7 +1501,7 @@
           "consumption_imports": 0
         },
         {
-          "name": "Belgium",
+          "name": "Netherlands",
           "general_imports": 0,
           "consumption_imports": 0
         },
@@ -1481,7 +1511,7 @@
           "consumption_imports": 0
         },
         {
-          "name": "Slovakia",
+          "name": "Hungary",
           "general_imports": 0,
           "consumption_imports": 0
         },
@@ -1497,16 +1527,6 @@
         },
         {
           "name": "Lithuania",
-          "general_imports": 0,
-          "consumption_imports": 0
-        },
-        {
-          "name": "Poland",
-          "general_imports": 0,
-          "consumption_imports": 0
-        },
-        {
-          "name": "Portugal",
           "general_imports": 0,
           "consumption_imports": 0
         },
@@ -1532,16 +1552,6 @@
         },
         {
           "name": "Singapore",
-          "general_imports": 0,
-          "consumption_imports": 0
-        },
-        {
-          "name": "Australia",
-          "general_imports": 0,
-          "consumption_imports": 0
-        },
-        {
-          "name": "New Zealand",
           "general_imports": 0,
           "consumption_imports": 0
         },

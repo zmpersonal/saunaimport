@@ -1,5 +1,4 @@
 hts_code,category,month,general_imports_usd,consumption_imports_usd
-9406.10.0000,Prefabricated buildings of wood,2023-07,219273560,219273560
 9406.10.0000,Prefabricated buildings of wood,2023-08,158120600,158120600
 9406.10.0000,Prefabricated buildings of wood,2023-09,114682744,114682744
 9406.10.0000,Prefabricated buildings of wood,2023-10,150096312,150096312
@@ -35,7 +34,7 @@ hts_code,category,month,general_imports_usd,consumption_imports_usd
 9406.10.0000,Prefabricated buildings of wood,2026-04,177780272,177780272
 9406.10.0000,Prefabricated buildings of wood,2026-05,254658592,254658592
 9406.10.0000,Prefabricated buildings of wood,2026-06,192503640,192503640
-8516.29.0090,Other electric space heating apparatus,2023-07,204626056,203882064
+9406.10.0000,Prefabricated buildings of wood,2026-07,212474776,212474776
 8516.29.0090,Other electric space heating apparatus,2023-08,306374688,303471680
 8516.29.0090,Other electric space heating apparatus,2023-09,325120280,320161832
 8516.29.0090,Other electric space heating apparatus,2023-10,269769808,268566128
@@ -71,7 +70,7 @@ hts_code,category,month,general_imports_usd,consumption_imports_usd
 8516.29.0090,Other electric space heating apparatus,2026-04,181155928,177762816
 8516.29.0090,Other electric space heating apparatus,2026-05,208485584,205279128
 8516.29.0090,Other electric space heating apparatus,2026-06,159808216,158886128
-8516.79.0000,Other domestic electrothermic appliances,2023-07,1187341200,1165849080
+8516.29.0090,Other electric space heating apparatus,2026-07,231031976,228352704
 8516.79.0000,Other domestic electrothermic appliances,2023-08,1430168168,1394260888
 8516.79.0000,Other domestic electrothermic appliances,2023-09,1633361912,1639696016
 8516.79.0000,Other domestic electrothermic appliances,2023-10,1825708072,1858049520
@@ -107,3 +106,4 @@ hts_code,category,month,general_imports_usd,consumption_imports_usd
 8516.79.0000,Other domestic electrothermic appliances,2026-04,887370688,880177320
 8516.79.0000,Other domestic electrothermic appliances,2026-05,1171345528,1168125040
 8516.79.0000,Other domestic electrothermic appliances,2026-06,1238512304,1287779456
+8516.79.0000,Other domestic electrothermic appliances,2026-07,1431734720,1439933032
