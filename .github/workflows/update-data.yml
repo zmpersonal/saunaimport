@@ -1,46 +1,80 @@
 name: Update trade data and deploy
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '23 10 * * 2'
+
 permissions:
   contents: write
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   update-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-python@v6
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
         with:
           python-version: '3.13'
-      - name: Fetch Census trade data
+
+      - name: Fetch Census data and regenerate research pages
         env:
           CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
         run: python scripts/update_data.py
-      - name: Commit changed data
+
+      - name: Commit refreshed data and generated pages
         run: |
           git config user.name "saunaimport-data-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/trade.json data/trade.csv
-          git diff --cached --quiet || git commit -m "data: refresh Census trade data"
+          git add -A data index.html countries reports sitemap.xml
+          git diff --cached --quiet || git commit -m "data: refresh Census trade release"
           git push
-      - uses: actions/configure-pages@v5
-      - name: Stage public site
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Stage complete public site
         run: |
-          mkdir _site
-          cp -r assets classifications countries data methodology resources rulings _site/
-          cp index.html 404.html robots.txt sitemap.xml llms.txt _site/
-      - uses: actions/upload-pages-artifact@v4
+          rm -rf _site
+          mkdir -p _site
+          rsync -a ./ _site/ \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='_site/' \
+            --exclude='scripts/' \
+            --exclude='README.md' \
+            --exclude='LICENSE'
+
+          echo "Files being deployed:"
+          find _site -maxdepth 4 -type f | sort
+
+          # Guard against silently publishing only the legacy folder set.
+          test -f _site/guides/general-imports-vs-consumption/index.html
+          test -f _site/guides/sauna-hts-code/index.html
+          test -f _site/guides/cbp-binding-ruling/index.html
+          test -f _site/tariffs/index.html
+          test -f _site/where-to-buy/index.html
+          test -f _site/about/index.html
+          test -f _site/reports/index.html
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: '_site'
+          path: _site
+
       - name: Deploy updated site
         id: deployment
         uses: actions/deploy-pages@v4
