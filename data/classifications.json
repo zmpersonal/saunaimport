@@ -8,7 +8,23 @@
     "scope_note": "Broad proxy category. It includes wooden prefabricated buildings other than saunas, so category totals must not be represented as sauna-only imports.",
     "confidence": "Confirmed sauna classification; broad statistical category",
     "cbp_ruling": "N304393",
-    "cbp_url": "https://rulings.cbp.gov/ruling/N304393"
+    "cbp_url": "https://rulings.cbp.gov/ruling/N304393",
+    "history_segments": [
+      {
+        "code": "9406004000",
+        "display_code": "9406.00.4000",
+        "start": "2010-01",
+        "end": "2016-12",
+        "note": "Historical predecessor statistical provision for prefabricated buildings of wood before the 2017 HTS restructuring."
+      },
+      {
+        "code": "9406100000",
+        "display_code": "9406.10.0000",
+        "start": "2017-01",
+        "end": null,
+        "note": "Current provision for prefabricated buildings of wood."
+      }
+    ]
   },
   {
     "code": "8516290090",
@@ -19,7 +35,16 @@
     "scope_note": "Broad proxy category. It includes electric space-heating equipment other than sauna heaters.",
     "confidence": "Confirmed heater classification; broad statistical category",
     "cbp_ruling": "H179957",
-    "cbp_url": "https://rulings.cbp.gov/ruling/H179957"
+    "cbp_url": "https://rulings.cbp.gov/ruling/H179957",
+    "history_segments": [
+      {
+        "code": "8516290090",
+        "display_code": "8516.29.0090",
+        "start": "2010-01",
+        "end": null,
+        "note": "Same tracked statistical provision across the requested Census history window."
+      }
+    ]
   },
   {
     "code": "8516790000",
@@ -30,6 +55,15 @@
     "scope_note": "Broad proxy category. It includes domestic electrothermic appliances other than portable infrared saunas.",
     "confidence": "Confirmed portable sauna classification; broad statistical category",
     "cbp_ruling": "N333797",
-    "cbp_url": "https://rulings.cbp.gov/ruling/N333797"
+    "cbp_url": "https://rulings.cbp.gov/ruling/N333797",
+    "history_segments": [
+      {
+        "code": "8516790000",
+        "display_code": "8516.79.0000",
+        "start": "2010-01",
+        "end": null,
+        "note": "Same tracked statistical provision across the requested Census history window."
+      }
+    ]
   }
 ]

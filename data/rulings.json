@@ -1,5 +1,58 @@
 [
-  {"ruling":"N304393","date":"2019-06-12","title":"The tariff classification of a prefabricated sauna","code":"9406.10.0000","url":"https://rulings.cbp.gov/ruling/N304393","summary":"CBP determined that a freestanding, weather-resistant cross-laminated-timber sauna met the definition of a prefabricated building of wood."},
-  {"ruling":"H179957","date":"2012-08-29","title":"Classification of an electric sauna heater in a DIY cedar sauna kit","code":"8516.29.00","url":"https://rulings.cbp.gov/ruling/H179957","summary":"CBP Headquarters concluded that the electric sauna heater is classified as other electric space heating apparatus; other kit components are classified separately."},
-  {"ruling":"N333797","date":"2023-07-21","title":"The tariff classification of a portable infrared sauna from China","code":"8516.79.0000","url":"https://rulings.cbp.gov/ruling/n333797","summary":"CBP classified a portable nylon-covered sauna with infrared panels and accessories as an other domestic electrothermic appliance."}
+  {
+    "ruling": "884879",
+    "date": "1993-05-05",
+    "title": "Prefabricated vacation homes and saunas from Finland",
+    "code": "9406.00.4000 (historic)",
+    "url": "https://rulings.cbp.gov/ruling/884879",
+    "summary": "CBP classified small complete wooden sauna buildings with prefabricated buildings of wood; appliances, if included, were to be classified separately."
+  },
+  {
+    "ruling": "H179957",
+    "date": "2012-09-20",
+    "title": "Classification of a non-freestanding DIY cedar sauna kit",
+    "code": "8516.29.00 (heater); other components separately",
+    "url": "https://rulings.cbp.gov/ruling/H179957",
+    "summary": "CBP Headquarters classified the electric sauna heater as other electric space-heating apparatus while treating the other kit components separately."
+  },
+  {
+    "ruling": "N290059",
+    "date": "2017-10-06",
+    "title": "The tariff classification of sauna kits from Canada",
+    "code": "4407.10.01; 4409.10 for identified wood components",
+    "url": "https://rulings.cbp.gov/ruling/N290059",
+    "summary": "CBP rejected heading 9406 for a non-freestanding sauna kit that depended on an existing building for framing, walls, roof and other structural elements."
+  },
+  {
+    "ruling": "N304393",
+    "date": "2019-06-12",
+    "title": "The tariff classification of a prefabricated sauna",
+    "code": "9406.10.0000",
+    "url": "https://rulings.cbp.gov/ruling/N304393",
+    "summary": "CBP determined that a freestanding, weather-resistant cross-laminated-timber sauna met the definition of a prefabricated building of wood."
+  },
+  {
+    "ruling": "N333797",
+    "date": "2023-07-21",
+    "title": "The tariff classification of a portable infrared sauna from China",
+    "code": "8516.79.0000",
+    "url": "https://rulings.cbp.gov/ruling/N333797",
+    "summary": "CBP classified a portable covered sauna with infrared panels and accessories as an other domestic electrothermic appliance."
+  },
+  {
+    "ruling": "H343750",
+    "date": "2025-06-04",
+    "title": "Outdoor barrel saunas; USMCA; Section 301 trade remedies",
+    "code": "9406.10.10 family; origin and trade-remedy analysis",
+    "url": "https://rulings.cbp.gov/ruling/H343750",
+    "summary": "CBP analyzed outdoor barrel saunas manufactured through operations in Canada, China and Mexico, addressing classification, country of origin, USMCA and Section 301 consequences."
+  },
+  {
+    "ruling": "N359114",
+    "date": "2026-03-25",
+    "title": "The tariff classification of a wool sauna hat from Russia",
+    "code": "6505.00.4090",
+    "url": "https://rulings.cbp.gov/ruling/N359114",
+    "summary": "CBP classified a merino wool felt sauna hat as wool headgear, illustrating the broader range of sauna-related articles outside the core cabin and heater categories."
+  }
 ]

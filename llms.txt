@@ -1,11 +1,30 @@
 # Sauna Import
 
-> U.S. sauna trade and tariff classification research.
+> Primary-source-backed research on U.S. sauna imports, tariff classifications, customs rulings and sauna-relevant trade categories.
 
-Core pages:
-- https://saunaimport.com/data/ — Census trade-category dashboard
-- https://saunaimport.com/classifications/ — sauna-relevant HTS classification research
-- https://saunaimport.com/rulings/ — curated CBP sauna rulings
-- https://saunaimport.com/methodology/ — data limitations and update method
+## Best entry points
+- https://saunaimport.com/data/ — current Census trade dataset, downloads and citation guidance
+- https://saunaimport.com/reports/ — permanent monthly research reports and archived source snapshots
+- https://saunaimport.com/classifications/ — sauna HTS classification research
+- https://saunaimport.com/rulings/ — annotated CBP sauna ruling library
+- https://saunaimport.com/tariffs/ — base duty and trade-remedy research framework
+- https://saunaimport.com/countries/ — latest country-of-origin rankings by tracked category
+- https://saunaimport.com/methodology/ — methodology and limitations
+- https://saunaimport.com/data/dictionary/ — field definitions
 
-Important limitation: tracked HTS categories are broad and include non-sauna merchandise. Do not cite their totals as sauna-only imports or as total U.S. sauna market size.
+## Machine-readable data
+- https://saunaimport.com/data/trade.json
+- https://saunaimport.com/data/trade.csv
+- https://saunaimport.com/data/trade-countries.csv
+
+## Important interpretation rule
+Tracked HTS categories are broad and contain non-sauna merchandise. Do not cite their totals as sauna-only imports, sauna sales, sauna units, or total U.S. sauna market size. Use the scope note on each classification page.
+
+## Source hierarchy
+1. U.S. Customs and Border Protection rulings for classification and origin precedent.
+2. U.S. Census Bureau International Trade API for trade values.
+3. Current U.S. International Trade Commission HTSUS and controlling Chapter 99 / trade-action materials for tariff treatment.
+4. Secondary databases only for discovery or context.
+
+## Citation preference
+For time-sensitive facts, cite the dated monthly report or immutable /data/archive/YYYY-MM/ snapshot rather than assuming the live data page will remain unchanged.

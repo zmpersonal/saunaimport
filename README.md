@@ -1,80 +1,60 @@
 # SaunaImport.com
 
-A zero-hosting-cost static research site for U.S. sauna trade and tariff intelligence. It uses primary CBP rulings to identify sauna-relevant HTS categories and a scheduled GitHub Action to fetch monthly data from the U.S. Census International Trade API.
+A static research site for U.S. sauna trade, tariff and customs intelligence. It uses primary CBP rulings to identify sauna-relevant HTS categories and a scheduled GitHub Action to fetch U.S. Census International Trade data.
 
-## What is already built
+## What the site now does
 
-- Responsive static site, no framework and no runtime dependency
-- Trade dashboard with vanilla-JS charting
-- Classification pages for prefabricated wooden saunas, electric sauna heaters and portable infrared saunas
-- Curated CBP ruling library
-- Methodology page designed to prevent false “sauna market size” claims from broad tariff categories
-- JSON/CSV endpoints
-- SEO metadata, canonical URLs, Dataset structured data, sitemap, robots.txt and llms.txt
-- Scheduled Census data refresh
-- GitHub Pages deployment workflow
-- Custom domain set to `saunaimport.com`
+- Publishes crawlable static HTML for live Census metrics instead of relying on JavaScript placeholders
+- Retains the current trade dataset as JSON plus category and country CSV files
+- Configures the updater to pull full monthly history from January 2010 forward, including an explicit 2017 code crosswalk for prefabricated buildings of wood
+- Writes immutable monthly snapshots under `data/archive/YYYY-MM/`
+- Generates a dated monthly research release under `reports/YYYY-MM/`
+- Maintains classification research for complete wooden saunas, electric sauna heaters and portable infrared saunas
+- Includes contrasting CBP rulings for built-in sauna kits and multi-country barrel saunas
+- Publishes tariff research, methodology, data dictionary, source hierarchy and citation guidance
+- Includes `Dataset` structured data, sitemap, explicit crawler access and `llms.txt`
+- Provides one consumer pathway under `/where-to-buy/`
 
-## 1. Create the GitHub repository
+## Census API key
 
-Create a repository (for example `saunaimport`) and upload the contents of this folder to the repository root. The default branch should be `main`.
-
-## 2. Get a Census API key
-
-The Census Bureau currently requires an API key for all Data API queries. Request one from the Census developers site.
-
-In GitHub, go to:
+Create a repository secret:
 
 `Repository → Settings → Secrets and variables → Actions → New repository secret`
 
-Create:
+Name it:
 
-`CENSUS_API_KEY = your key`
+`CENSUS_API_KEY`
 
-Then run **Actions → Update trade data → Run workflow** once. The workflow will generate `data/trade.json` and `data/trade.csv`. It is also scheduled weekly; the Census underlying trade data are monthly.
+Then run **Actions → Update trade data and deploy → Run workflow** once.
 
-## 3. Enable GitHub Pages
+The scheduled workflow runs weekly. Census trade data are monthly, so most weekly runs will simply confirm the newest released month until a new release appears.
 
-Go to:
+## Deployment
 
-`Repository → Settings → Pages → Build and deployment → Source: GitHub Actions`
+In GitHub Pages set:
 
-The included `pages.yml` stages only the public website files and deploys them using the current GitHub Pages Actions flow. The scheduled data workflow also deploys immediately after refreshing Census data, so it does not rely on a bot commit triggering another workflow.
+`Settings → Pages → Build and deployment → Source: GitHub Actions`
 
-## 4. Add the custom domain
+Both workflows render the committed trade snapshot into static HTML before staging the public site. The data-refresh workflow also commits the regenerated data, archive and report pages when they change.
 
-In `Settings → Pages → Custom domain`, enter:
+## Custom domain
 
-`saunaimport.com`
+The repository includes `CNAME` for `saunaimport.com`. Configure the apex and `www` DNS records according to current GitHub Pages documentation and enable **Enforce HTTPS** after DNS resolves.
 
-For the apex domain at GoDaddy, GitHub currently documents these A records:
+## Important methodological constraint
 
-- `185.199.108.153`
-- `185.199.109.153`
-- `185.199.110.153`
-- `185.199.111.153`
-
-For `www`, add a CNAME to your GitHub Pages default host, e.g. `YOUR-GITHUB-USERNAME.github.io` (not to the repository path). GitHub recommends configuring both apex and `www` and can redirect between them.
-
-After DNS resolves, enable **Enforce HTTPS** in GitHub Pages.
-
-## 5. Important methodological constraint
-
-Do **not** change the site to add `9406.10 + 8516.29 + 8516.79` and label the result “U.S. sauna imports.” Those categories are broader than saunas. The site is deliberately designed to show each proxy separately until a defensible shipment-description data source is added.
+Do **not** add the totals for `9406.10 + 8516.29 + 8516.79` and label the sum “U.S. sauna imports.” Each category contains substantial non-sauna merchandise. The site deliberately publishes them separately as sauna-relevant proxy categories.
 
 ## Local preview
 
-No build is required:
+No framework is required:
 
 ```bash
+python3 scripts/render_site.py
 python3 -m http.server 8080
 ```
 
 Open `http://localhost:8080`.
-
-## Data source
-
-U.S. Census Bureau International Trade API, `imports/hsimport` endpoint. The updater uses the world geography for the 36-month time series and USITC standard countries/areas for the latest origin-country breakdown.
 
 ## Legal / customs disclaimer
 
